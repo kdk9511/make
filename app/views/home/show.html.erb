@@ -1,0 +1,34 @@
+<style>
+body {
+    width: 900px;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+div {
+    float:left;
+    width:33.33%;
+}
+</style>
+
+<h1><center>신이 나를 만들때</center></h1>
+
+<div>
+    <center>
+        <p><%= @attr1 %> <%= @amount %></p>
+        <img src = "/assets/<%= @amount_img %>" style="width : 200px; height: 200px;"></img>
+    </center>
+</div>
+<div>
+    <center>
+        <p><%= @attr2 %> <%= @special %></p>
+        <img src = "/assets/<%= @special_img %>" style="width : 200px; height: 200px;"></img>
+    </center>
+</div>
+<div>
+    <center>    
+        <p><%= @attr3 %> <%= @super %></p>
+        <img src = "/assets/<%= @super_img %>" style="width : 200px; height: 200px;"></img>
+    </center>
+</div>
+
+
